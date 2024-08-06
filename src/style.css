@@ -136,6 +136,13 @@ table {
   left: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3vmax 0;
+  gap: 3vmax;
+}
+
 .grid {
   display: grid;
   padding: 6vmax;
